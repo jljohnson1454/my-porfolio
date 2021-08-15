@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgba(20, 18, 18, 0.151);
+}
+/*Added flex containers*/
+header {
+    padding: 10px 0 20px;
+    background-color: rgb(94, 94, 90);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+}
+
+header h1 {
+    display: inline-flex;
+    padding: 20px 100px 20px 25px;
+    background-color: rgb(101, 146, 214);
+    color: white;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+header a {
+    text-decoration: none;
+    color: whitesmoke
+}
+
+header nav {
+    margin-top: auto;
+    display: flex;
+}
+
+header nav ul {
+display:flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    text-decoration: underline;
+}
+
+
+.intro {
+    display: flex;
+    margin: 10px auto;
+    width: 80%;
+}
+
+.intro h2 {
+font-size: 50px;
+padding: 15px 10px 15px;
+border-right: 5px solid black;
+text-align:right;
+
+}
+
+.intro div {
+    display:inline-flex;
+    
+}
+
+.intro img{
+    padding: 20px 20px 20px 20px;
+    height: 300px;
+    width: auto;
+}
+
+.intro p {
+    display: inline;
+    margin: 20px 15px 20px 15px;
+    align-items: center;
+}
+
+
+main{
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+}
+
+main h2 {
+    font-size: 50px;
+    border-right: 5px solid black;
+    padding: 15px 10px 15px;
+    text-align: right;
+
+}
+
+.work-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.work-item-runbuddy, .work-item-horiseon, .work-item-screenpunk, .work-item-jacobrhys, .work-item-placeholder {
+    width: 45%;
+    margin: 10px;
+    border: 12px solid turquoise;
+    padding: 20px 15px 20px 15px;
+    min-height: 250px;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+}
+
+
+.work-item-runbuddy {
+    background-image: url(./images/RunBuddy.png);
+    background-size:cover;
+    background-position: center;
+    
+
+}
+
+.work-item-horiseon {
+    background-image: url(./images/Horiseon.png);
+    background-size:cover;
+    background-position: center;
+}
+
+.work-item-screenpunk {
+    background-image: url(./images/Screenpunk.png);
+    background-size:cover;
+    background-position: center;
+}
+
+.work-item-jacobrhys {
+    background-image: url(./images/JacobRhysvsEvil.png);
+    background-size:cover;
+    background-position: center;
+}
+
+.work-item-placeholder {
+    background-image: url(./images/placeholder.png);
+    background-size:cover;
+    background-position: center;
+}
+
+
+span {
+    background-color: turquoise;
+    padding: 10px auto;
+
+}
+
+footer {
+    width: 80%;
+    margin: auto;
+    padding: 20px; 
+}
