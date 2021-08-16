@@ -5,13 +5,14 @@
 }
 
 body {
-    font-family:Arial, Helvetica, sans-serif;
-    background-color: rgba(20, 18, 18, 0.151);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
 }
 /*Added flex containers*/
+
 header {
     padding: 10px 0 20px;
-    background-color: rgb(94, 94, 90);
+    background-color: rgb(59, 100, 138);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -29,20 +30,19 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: whitesmoke
+    color: whitesmoke;
 }
 
 header nav {
     margin-top: auto;
     display: flex;
+    padding: 10px 15px 0 15px;
 }
 
 header nav ul {
-display:flex;
-flex-wrap: wrap;
-justify-content: space-between;
-align-items: center;
+display: flex;
 list-style: none;
+font-size: 20px;
 }
 
 header nav ul li a {
@@ -50,24 +50,35 @@ header nav ul li a {
     text-decoration: underline;
 }
 
+/*Adding a banner*/
+
+.banner {
+    display: flex;
+}
+
+.banner img {
+    width: 100%;
+    height: 5%;
+}
+
+.banner div {
+    font-size: 40px;
+}
+
+/*Intro section for my About Me*/
 
 .intro {
     display: flex;
+    justify-content: center;
     margin: 10px auto;
-    width: 80%;
+    width: 60%;
 }
 
 .intro h2 {
-font-size: 50px;
+font-size: 30px;
 padding: 15px 10px 15px;
 border-right: 5px solid black;
 text-align:right;
-
-}
-
-.intro div {
-    display:inline-flex;
-    
 }
 
 .intro img{
@@ -76,55 +87,61 @@ text-align:right;
     width: auto;
 }
 
-.intro p {
-    display: inline;
-    margin: 20px 15px 20px 15px;
+.intro div {
+    display:flex;
     align-items: center;
 }
 
+/*Main section is the Work I've done so far*/
 
 main{
     width: 80%;
     margin: 10px auto;
     display: flex;
+    justify-content: center;
 }
 
 main h2 {
-    font-size: 50px;
+    font-size: 30px;
     border-right: 5px solid black;
     padding: 15px 10px 15px;
     text-align: right;
-
 }
 
 .work-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items:stretch;
+}
+
+.work-item-horiseon, .work-item-screenpunk, .work-item-jacobrhys, .work-item-placeholder {
+    width: 45%;
+    margin: 10px;
+    border: 12px solid rgb(103, 173, 238);
+    padding: 20px 15px 20px 15px;
+    min-height: 150px;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    align-items: flex-end;
 }
 
 
-.work-item-runbuddy, .work-item-horiseon, .work-item-screenpunk, .work-item-jacobrhys, .work-item-placeholder {
-    width: 45%;
+
+.work-item-runbuddy {
+    width: 100%;
     margin: 10px;
-    border: 12px solid turquoise;
+    border: 12px solid rgb(103, 173, 238);
     padding: 20px 15px 20px 15px;
     min-height: 250px;
     font-weight: bold;
     font-size: 15px;
     display: flex;
     align-items: flex-end;
-    justify-content: right;
-}
-
-
-.work-item-runbuddy {
     background-image: url(./images/RunBuddy.png);
     background-size:cover;
     background-position: center;
-    
-
 }
 
 .work-item-horiseon {
@@ -135,14 +152,14 @@ main h2 {
 
 .work-item-screenpunk {
     background-image: url(./images/Screenpunk.png);
-    background-size:cover;
+    background-size:contain;
     background-position: center;
 }
 
 .work-item-jacobrhys {
     background-image: url(./images/JacobRhysvsEvil.png);
-    background-size:cover;
-    background-position: center;
+    background-size:contain;
+    background-position:center;
 }
 
 .work-item-placeholder {
@@ -151,15 +168,44 @@ main h2 {
     background-position: center;
 }
 
+.work-container a {
+    background-color: rgb(103, 173, 238);
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    opacity: 0.75;
+}
 
-span {
-    background-color: turquoise;
-    padding: 10px auto;
-
+.work-container span {
+    font-size: 12px;
 }
 
 footer {
     width: 80%;
-    margin: auto;
-    padding: 20px; 
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+footer h3 {
+    font-size: 30px;
+    border-right: 5px solid black;
+    padding: 15px 10px 15px;
+}
+
+footer ul {
+    display:flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+
+    }
+
+footer ul li a {
+    text-decoration: underline;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color:rgb(32, 32, 28)
 }
