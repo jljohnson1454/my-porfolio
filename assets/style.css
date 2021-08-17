@@ -26,6 +26,8 @@ header h1 {
     color: white;
     margin-top: 15px;
     font-weight: bold;
+    font-size: 50px;
+    border-radius: 0 15px 15px 0;
 }
 
 header a {
@@ -42,13 +44,15 @@ header nav {
 header nav ul {
 display: flex;
 list-style: none;
-font-size: 20px;
+font-size: 30px;
 }
 
 header nav ul li a {
     padding: 10px 15px;
     text-decoration: underline;
 }
+
+
 
 /*Adding a banner*/
 
@@ -70,6 +74,7 @@ header nav ul li a {
     background-color: rgb(101, 146, 214);
     padding: 10px 20px;
     margin: 20px;
+    border-radius: 15px;
 }
 
 /*Intro section for my About Me*/
@@ -78,34 +83,32 @@ header nav ul li a {
     display: flex;
     justify-content: center;
     margin: 10px auto;
-    width: 60%;
+    width: 80%;
 }
 
 .intro h2 {
 font-size: 30px;
-padding: 15px 10px 15px;
-border-right: 5px solid black;
 text-align:right;
 }
 
 .intro img{
     padding: 20px 20px 20px 20px;
     height: 300px;
-    width: auto;
 }
 
-.intro div {
-    display:flex;
-    align-items: center;
+.intro-headers {
+    width: 20%;
+    border-right:rgb(32, 32, 28) 5px solid;
+
 }
+
 
 /*Main section is the Work I've done so far*/
 
 main{
-    width: 80%;
+    
     margin: 10px auto;
     display: flex;
-    justify-content: center;
 }
 
 main h2 {
@@ -115,104 +118,5 @@ main h2 {
     text-align: right;
 }
 
-.work-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items:stretch;
-}
-
-.work-item-horiseon, .work-item-screenpunk, .work-item-jacobrhys, .work-item-placeholder {
-    width: 45%;
-    margin: 10px;
-    border: 12px solid rgb(103, 173, 238);
-    padding: 20px 15px 20px 15px;
-    min-height: 150px;
-    font-weight: bold;
-    font-size: 15px;
-    display: flex;
-    align-items: flex-end;
-}
 
 
-
-.work-item-runbuddy {
-    width: 100%;
-    margin: 10px;
-    border: 12px solid rgb(103, 173, 238);
-    padding: 20px 15px 20px 15px;
-    min-height: 250px;
-    font-weight: bold;
-    font-size: 15px;
-    display: flex;
-    align-items: flex-end;
-    background-image: url(./images/RunBuddy.png);
-    background-size:cover;
-    background-position: center;
-}
-
-.work-item-horiseon {
-    background-image: url(./images/Horiseon.png);
-    background-size:cover;
-    background-position: center;
-}
-
-.work-item-screenpunk {
-    background-image: url(./images/Screenpunk.png);
-    background-size:contain;
-    background-position: center;
-}
-
-.work-item-jacobrhys {
-    background-image: url(./images/JacobRhysvsEvil.png);
-    background-size:contain;
-    background-position:center;
-}
-
-.work-item-placeholder {
-    background-image: url(./images/placeholder.png);
-    background-size:cover;
-    background-position: center;
-}
-
-.work-container a {
-    background-color: rgb(103, 173, 238);
-    text-decoration: none;
-    color: black;
-    padding: 15px;
-    opacity: 0.75;
-}
-
-.work-container span {
-    font-size: 12px;
-}
-
-footer {
-    width: 80%;
-    margin: 10px auto;
-    display: flex;
-    justify-content: space-around;
-
-}
-
-footer h3 {
-    font-size: 30px;
-    border-right: 5px solid black;
-    padding: 15px 10px 15px;
-}
-
-footer ul {
-    display:flex;
-    flex-wrap: wrap;
-    list-style: none;
-    align-items: center;
-
-    }
-
-footer ul li a {
-    text-decoration: underline;
-    padding: 15px;
-    font-size: 15px;
-    font-weight: bold;
-    color:rgb(32, 32, 28)
-}
