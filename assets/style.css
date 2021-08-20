@@ -157,6 +157,9 @@ main {
     text-shadow: rgb(51, 44, 35) 2px 2px;
 }
 
+.language {
+    font-size: 15px;
+}
 .work-item img {
     border: rgb(101, 146, 214) 5px solid;
     height: auto;
@@ -201,106 +204,56 @@ main {
 
 /* Width at 1024px and below */
 @media screen and (max-width: 1024px) {
-    body {
-        width: 80%;
-    }
-  .work-item span {
-      font-size: 20px;
-  }
-    
-    }
-  
-  
-  /* Width at 768px and below */
-  @media screen and (max-width: 768px) {
-    body {
-        min-width: 20%;
-    }
-  .work-item span {
-      font-size: 15px;
-  }
-  .contact {
-        flex-direction: column;
-        align-items: center;
-  }
-  
+   body {
+       width: 100%;
+   }
+   header nav ul {
+    text-align: center;
+   }
+
+   .intro img {
+      height:200px;
+   }
+
+   .intro-headers {
+    font-size: 100%;
 }
-  
-  /* Width at 600px and below */
-  @media screen and (max-width: 600px) {
-    body {
-        width:85%;
-    }
-    .work-item span {
-      font-size: 15px;
-    }
 
-    .intro-headers{
-    width: min-content;
-    font-size: 15px;
-    }
-  
-    .contact {
-    display: flex;
-    font-size: 10px;
-        
-    }
-  
-    .contact li {
-    padding: 10px;
-    align-items: flex-start;
-    }
+   .work-item span {
+       font-size: 15px;
+   }
+   
+   .contact ul {
+    flex-direction: column;
 }
-  
-/* Width at 480px and below */
-  @media screen and (max-width: 480px) {
-    body {
-        width:90%;
-        text-align: center;
-    }
-
-    a { font-size: 15px;}
-
-    .banner p {
-        font-size: 15px;
-    }
-  
-    .info img {
-        height: auto;
-        width: 50%;
-    }
-    .work-item span {
-        font-size: 15px;
-    }
-
-    .intro-headers{
-        width: min-content;
-        font-size: 15px;
-    }
-  
-    .contact {
-        display: flex;
-        font-size: 8px;  
-    }
-  
-    .contact li {
-        padding: 10px;
-        align-items: flex-start;
-     }
-  
+   
 }
+
   
 /* Width at 300px and below */
   @media screen and (max-width: 300px) {
+    
     body {
-        text-align: center;
+        width: 160%;
+        
     }
-
+    header nav ul {
+     text-align: center;
+    }
+ 
+    .intro img {
+       height:200px;
+    }
+ 
+    .intro-headers {
+     font-size: 50%;
+ }
+ 
     .work-item span {
-        font-size: small;
+        font-size: 15px;
     }
-    .contact li {
-        font-size: small;
-    }
-  
+    
+    .contact ul {
+     flex-direction: column;
+ }
 }
