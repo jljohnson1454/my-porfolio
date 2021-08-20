@@ -17,6 +17,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     top: 0;
+    
 }
 
 header h1 {
@@ -25,14 +26,18 @@ header h1 {
     background-color: rgb(101, 146, 214);
     color: white;
     margin-top: 15px;
-    font-weight: bold;
+    font-weight:bold;
     font-size: 50px;
     border-radius: 0 15px 15px 0;
+    box-shadow: rgb(38, 41, 233) 5px 5px;
+    text-shadow: black 3px 5px;
+    
 }
 
 header a {
     text-decoration: none;
     color: whitesmoke;
+    
 }
 
 header nav {
@@ -50,6 +55,7 @@ font-size: 30px;
 header nav ul li a {
     padding: 10px 15px;
     text-decoration: underline;
+    text-shadow: black 0 0 3px;
 }
 
 /*Adding a banner*/
@@ -66,6 +72,7 @@ header nav ul li a {
     justify-content: flex-end;
     align-items: center;
     
+    
 }
 
 .banner p {
@@ -73,6 +80,8 @@ header nav ul li a {
     padding: 10px 20px;
     margin: 20px;
     border-radius: 15px;
+    text-shadow: black 2px 2px;
+    
 }
 
 /*Intro section for my About Me*/
@@ -83,6 +92,7 @@ header nav ul li a {
     font-size: 30px;
     margin: 10px;
     text-align: right;
+    text-shadow: rgba(134, 121, 121, 0.418) 5px 5px 5px;
 }
 
 .intro {
@@ -108,6 +118,8 @@ header nav ul li a {
 
 /*WORK SECTION*/
 
+/*Originally had all of the link images in the css but moved them to the index file*/
+
 main {
     display: flex;  
 }
@@ -126,6 +138,7 @@ main {
     width: 100%;
     position: relative;
     margin: auto;
+    padding: 10px;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
@@ -134,12 +147,14 @@ main {
 .work-item span {
     position: absolute;
     top: 50%;
-    left:5px;
+    left:10px;
     font-size: 30px;
     background-color: rgb(101, 146, 214);
+    padding-right: 5px;
     color: white;
-    opacity: 0.9;
+    opacity: 0.95;
     text-align:center;
+    text-shadow: rgb(51, 44, 35) 2px 2px;
 }
 
 .work-item img {
@@ -148,10 +163,9 @@ main {
     width: 100%;
 }
 
-
-
 .second-row, .third-row {
     display: flex;
+    
 }
 
 .work-item img:hover {
@@ -181,4 +195,47 @@ main {
     text-decoration: underline;
     font-weight: bold;
     color: black;
+}
+
+/*Adding media queries*/
+
+/* Width at 1024px and below */
+@media screen and (max-width: 1024px) {
+    body {
+        width: auto;
+    }
+  
+    
+    }
+  
+  
+  /* Width at 768px and below */
+  @media screen and (max-width: 768px) {
+    body {
+        width: auto;
+    }
+  
+}
+  
+  /* Width at 600px and below */
+  @media screen and (max-width: 600px) {
+    body {
+        width: auto;
+    }
+  
+}
+  
+  /* Width at 480px and below */
+  @media screen and (max-width: 480px) {
+    body {
+        width: auto;
+    }
+  
+}
+  
+  /* Width at 300px and below */
+  @media screen and (max-width: 300px) {
+    body {
+        width: auto;
+    }
 }
