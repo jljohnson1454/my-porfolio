@@ -13,13 +13,13 @@ The Screenpunk, Jacob and Rhys vs. Evil, and Robot Gladiators are works in progr
 
 ## Website
 
-Website: 
+Github: https://github.com/jljohnson1454/my-portfolio
 
-Github: https://jljohnson1454.github.io/my-portfolio/
+Portfolio Website: https://jljohnson1454.github.io/my-portfolio/
 
 
 ## Screenshot
-![Screenshot]
+![Screenshot](assets/images/screenshot.png)
 
 ## References
 
