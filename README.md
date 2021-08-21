@@ -1,11 +1,11 @@
 # MY PORTFOLIO
 
 ## Purpose
-This is a collection of the things I've worked on so far as a full stack web developer. Using HTML and CSS, I built the following portfolio from scratch, incorporating flex boxes, media queries, and pseudo-classes.
+This is a collection of the projects I've worked on so far as a full stack web developer. Using HTML, CSS, I built the following portfolio from scratch, incorporating flex boxes, media queries, and pseudo-classes.
 
-The Run Buddy website on my page is probably the best representation of my skillset as it was an ongoing project for a couple weeks. The Horiseon site was a refracting project provided to me to enhance the structure and alleviate excess syntax.
+The Run Buddy website on my page is probably the best representation of my skillset as it was an ongoing project for several weeks. The Horiseon site was a refactoring project provided to me to enhance the structure and alleviate excess syntax.
 
-The Screenpunk, Jacob and Rhys vs. Evil and Robot Gladiators are works in progress.
+The Screenpunk, Jacob and Rhys vs. Evil, and Robot Gladiators are works in progress.
 
 ## Built With
     -HTML
@@ -13,10 +13,19 @@ The Screenpunk, Jacob and Rhys vs. Evil and Robot Gladiators are works in progre
 
 ## Website
 
-Link: https://jljohnson1454.github.io/my-portfolio/
+Website: 
+
+Github: https://jljohnson1454.github.io/my-portfolio/
+
+
+## Screenshot
+![Screenshot]
 
 ## References
 
-Run-Buddy
-Flexbox Cards
-Media-Queries
+    -Run-Buddy
+    -Flexbox Cards
+    -Media-Queries
+
+## Author
+Created by Jacob Johnson
